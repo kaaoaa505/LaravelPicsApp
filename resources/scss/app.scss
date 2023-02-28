@@ -1,0 +1,15 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/pagination';
+@import 'styles.scss';
+@import 'masonry.scss';
+
+img{
+  max-width: 100%;
+}
+
+.close-alert-btn{
+    padding: 0;
+    margin: -12px 0 0 0;
+    font-size: 27px;
+    float: right;
+}

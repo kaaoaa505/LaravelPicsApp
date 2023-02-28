@@ -1,0 +1,20 @@
+
+.grid {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .grid-item {
+    border-radius: 5px;
+    visibility: hidden; /* hide by default */
+    margin-bottom: 10px;
+  }
+  
+  .grid.is-visible-items .grid-item { visibility: visible; }
